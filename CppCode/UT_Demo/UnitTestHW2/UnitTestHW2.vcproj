@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="D:\Projects\Code\CppCode\UT_Demo\Dll_CCalculator_Factory;D:\Projects\Code\CppCode\UT_Demo\NonI_CCalculator;&quot;D:\Projects\Code\gtest-1.7.0\include&quot;"
+				AdditionalIncludeDirectories="..\Dll_CCalculator_Factory;..\NonI_CCalculator;&quot;..\..\..\gtest-1.7.0\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -64,7 +64,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="gtestd.lib NonI_CCalculator.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="D:\Projects\Code\CppCode\UT_Demo\debug;&quot;D:\Projects\Code\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
+				AdditionalLibraryDirectories="..\debug;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"

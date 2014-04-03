@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="D:\Projects\Code\CppCode\UT_Demo\UT_Demo;&quot;D:\Projects\Code\gtest-1.7.0\include&quot;"
+				AdditionalIncludeDirectories="..\UT_Demo;&quot;..\..\..\gtest-1.7.0\include&quot;"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -64,7 +64,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="gtestd.lib Cal.obj"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="D:\Projects\Code\CppCode\UT_Demo\UT_Demo\Debug;&quot;D:\Projects\Code\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
+				AdditionalLibraryDirectories="..\\UT_Demo\Debug;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
