@@ -22,3 +22,12 @@ TEST(TEST_FC, TEST_FC_AddWithRandom)
     EXPECT_EQ(15,ans);    
     //delete random; QQ: Why we should not delete object here?
 }
+
+TEST(TEST_FC, TEST_FC_Add)
+{
+    int ans;
+    FCCalculator f;
+    f.InitRandom();
+    ans = f.Add(2,5);    
+    EXPECT_EQ(7,ans);
+}
