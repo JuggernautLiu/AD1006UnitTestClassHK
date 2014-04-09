@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\NonI_CCalculator;&quot;..\..\..\gtest-1.7.0\include&quot;;..\Dll_CCalculator_Factory"
+				AdditionalIncludeDirectories="..\NonI_CCalculator;&quot;..\..\..\gmock-1.7.0\gmock-1.7.0\include&quot;;&quot;..\..\..\gtest-1.7.0\include&quot;;..\Dll_CCalculator_Factory"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -207,6 +207,14 @@
 				>
 			</File>
 			<File
+				RelativePath=".\TestableCLog.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\TestableNCCalculator.cpp"
+				>
+			</File>
+			<File
 				RelativePath=".\UnitTestHW3.cpp"
 				>
 			</File>
@@ -222,6 +230,14 @@
 			</File>
 			<File
 				RelativePath=".\TEST_NonI_CCalculator.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TestableCLog.h"
+				>
+			</File>
+			<File
+				RelativePath=".\TestableNCCalculator.h"
 				>
 			</File>
 		</Filter>
