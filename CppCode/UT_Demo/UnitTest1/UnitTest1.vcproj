@@ -64,7 +64,7 @@
 				Name="VCLinkerTool"
 				AdditionalDependencies="gtestd.lib Cal.obj"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="..\\UT_Demo\Debug;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
+				AdditionalLibraryDirectories="..\UT_Demo\Debug;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -120,6 +120,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="..\UT_Demo;&quot;..\..\..\gtest-1.7.0\include&quot;"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="2"
@@ -138,7 +139,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				AdditionalDependencies="gtest.lib"
 				LinkIncremental="1"
+				AdditionalLibraryDirectories="..\release;..\UT_Demo\Release;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Release&quot;"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				OptimizeReferences="2"
@@ -172,6 +175,10 @@
 		</Configuration>
 	</Configurations>
 	<References>
+		<ProjectReference
+			ReferencedProjectIdentifier="{8E275041-0E45-4D25-9C76-0972402E9D30}"
+			RelativePathToProject=".\UT_Demo\UT_Demo.vcproj"
+		/>
 	</References>
 	<Files>
 		<Filter

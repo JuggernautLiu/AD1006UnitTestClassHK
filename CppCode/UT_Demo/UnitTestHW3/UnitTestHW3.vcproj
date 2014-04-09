@@ -2,9 +2,9 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="8.00"
-	Name="UnitTestHW2"
-	ProjectGUID="{26D456AD-6F52-4EDF-A7D2-151D577C0DDD}"
-	RootNamespace="UnitTestHW2"
+	Name="UnitTestHW3"
+	ProjectGUID="{58047F0E-BF98-47C5-98A5-66ABDE2F5901}"
+	RootNamespace="UnitTestHW3"
 	Keyword="Win32Proj"
 	>
 	<Platforms>
@@ -41,7 +41,7 @@
 			<Tool
 				Name="VCCLCompilerTool"
 				Optimization="0"
-				AdditionalIncludeDirectories="..\Dll_CCalculator_Factory;..\NonI_CCalculator;&quot;..\..\..\gtest-1.7.0\include&quot;"
+				AdditionalIncludeDirectories="..\NonI_CCalculator;&quot;..\..\..\gtest-1.7.0\include&quot;;..\Dll_CCalculator_Factory"
 				PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE"
 				MinimalRebuild="true"
 				BasicRuntimeChecks="3"
@@ -62,9 +62,9 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
-				AdditionalDependencies="gtestd.lib NonI_CCalculator.lib"
+				AdditionalDependencies="gmock.lib gtestd.lib NonI_CCalculator.lib"
 				LinkIncremental="2"
-				AdditionalLibraryDirectories="..\debug;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Debug&quot;"
+				AdditionalLibraryDirectories="&quot;..\..\..\gmock-1.7.0\gmock-1.7.0\msvc\2005\Debug&quot;;&quot;..\..\..\gtest-1.7.0\msvc\gtest-md\Debug&quot;;..\debug"
 				GenerateDebugInformation="true"
 				SubSystem="1"
 				TargetMachine="1"
@@ -120,7 +120,7 @@
 			/>
 			<Tool
 				Name="VCCLCompilerTool"
-				AdditionalIncludeDirectories="&quot;..\..\..\gtest-1.7.0\include&quot;;..\NonI_CCalculator;..\Dll_CCalculator_Factory"
+				AdditionalIncludeDirectories="&quot;..\..\..\gmock-1.7.0\gmock-1.7.0\include&quot;;&quot;..\..\..\gtest-1.7.0\include&quot;;..\NonI_CCalculator;..\Dll_CCalculator_Factory"
 				PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE"
 				RuntimeLibrary="2"
 				UsePrecompiledHeader="2"
@@ -175,10 +175,6 @@
 		</Configuration>
 	</Configurations>
 	<References>
-		<ProjectReference
-			ReferencedProjectIdentifier="{92FD7DF6-46EF-43DE-AD58-76A64D41073D}"
-			RelativePathToProject=".\Dll_CCalculator_Factory\Dll_CCalculator_Factory.vcproj"
-		/>
 	</References>
 	<Files>
 		<Filter
@@ -207,19 +203,11 @@
 				</FileConfiguration>
 			</File>
 			<File
-				RelativePath=".\TEST_FCCalculator.cpp"
-				>
-			</File>
-			<File
 				RelativePath=".\TEST_NonI_CCalculator.cpp"
 				>
 			</File>
 			<File
-				RelativePath=".\TestableCalculator.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\UnitTestHW2.cpp"
+				RelativePath=".\UnitTestHW3.cpp"
 				>
 			</File>
 		</Filter>
@@ -233,15 +221,7 @@
 				>
 			</File>
 			<File
-				RelativePath=".\TEST_FCCalculator.h"
-				>
-			</File>
-			<File
 				RelativePath=".\TEST_NonI_CCalculator.h"
-				>
-			</File>
-			<File
-				RelativePath=".\TestableCalculator.h"
 				>
 			</File>
 		</Filter>

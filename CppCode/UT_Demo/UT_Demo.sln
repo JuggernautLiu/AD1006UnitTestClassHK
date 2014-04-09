@@ -1,13 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 9.00
 # Visual Studio 2005
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UT_Demo", "UT_Demo\UT_Demo.vcproj", "{8E275041-0E45-4D25-9C76-0972402E9D30}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest1", "UnitTest1\UnitTest1.vcproj", "{701FBD2E-7F6F-4469-8743-41347233FF6F}"
-	ProjectSection(ProjectDependencies) = postProject
-		{8E275041-0E45-4D25-9C76-0972402E9D30} = {8E275041-0E45-4D25-9C76-0972402E9D30}
-	EndProjectSection
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Dll_CCalculator_Factory", "Dll_CCalculator_Factory\Dll_CCalculator_Factory.vcproj", "{92FD7DF6-46EF-43DE-AD58-76A64D41073D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NonI_CCalculator", "NonI_CCalculator\NonI_CCalculator.vcproj", "{8CDBD963-57CB-40EF-944C-DB9D783C2AB6}"
@@ -18,20 +11,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestHW2", "UnitTestHW2\
 		{92FD7DF6-46EF-43DE-AD58-76A64D41073D} = {92FD7DF6-46EF-43DE-AD58-76A64D41073D}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTestHW3", "UnitTestHW3\UnitTestHW3.vcproj", "{58047F0E-BF98-47C5-98A5-66ABDE2F5901}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8E275041-0E45-4D25-9C76-0972402E9D30}.Debug|Win32.ActiveCfg = Debug|Win32
-		{8E275041-0E45-4D25-9C76-0972402E9D30}.Debug|Win32.Build.0 = Debug|Win32
-		{8E275041-0E45-4D25-9C76-0972402E9D30}.Release|Win32.ActiveCfg = Release|Win32
-		{8E275041-0E45-4D25-9C76-0972402E9D30}.Release|Win32.Build.0 = Release|Win32
-		{701FBD2E-7F6F-4469-8743-41347233FF6F}.Debug|Win32.ActiveCfg = Debug|Win32
-		{701FBD2E-7F6F-4469-8743-41347233FF6F}.Debug|Win32.Build.0 = Debug|Win32
-		{701FBD2E-7F6F-4469-8743-41347233FF6F}.Release|Win32.ActiveCfg = Release|Win32
-		{701FBD2E-7F6F-4469-8743-41347233FF6F}.Release|Win32.Build.0 = Release|Win32
 		{92FD7DF6-46EF-43DE-AD58-76A64D41073D}.Debug|Win32.ActiveCfg = Debug|Win32
 		{92FD7DF6-46EF-43DE-AD58-76A64D41073D}.Debug|Win32.Build.0 = Debug|Win32
 		{92FD7DF6-46EF-43DE-AD58-76A64D41073D}.Release|Win32.ActiveCfg = Release|Win32
@@ -44,6 +31,10 @@ Global
 		{26D456AD-6F52-4EDF-A7D2-151D577C0DDD}.Debug|Win32.Build.0 = Debug|Win32
 		{26D456AD-6F52-4EDF-A7D2-151D577C0DDD}.Release|Win32.ActiveCfg = Release|Win32
 		{26D456AD-6F52-4EDF-A7D2-151D577C0DDD}.Release|Win32.Build.0 = Release|Win32
+		{58047F0E-BF98-47C5-98A5-66ABDE2F5901}.Debug|Win32.ActiveCfg = Debug|Win32
+		{58047F0E-BF98-47C5-98A5-66ABDE2F5901}.Debug|Win32.Build.0 = Debug|Win32
+		{58047F0E-BF98-47C5-98A5-66ABDE2F5901}.Release|Win32.ActiveCfg = Release|Win32
+		{58047F0E-BF98-47C5-98A5-66ABDE2F5901}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
