@@ -25,3 +25,14 @@ int NCCalculator::GetRandom()
 {    
     return rand();
 }
+
+int NCCalculator::Divide(int x, int y)
+{
+    if(0==y){
+        m_log.Write("ZeroDivisor");
+        throw "ZeroDivisor";
+    }
+    else{
+        return (x / y);
+    }
+}
