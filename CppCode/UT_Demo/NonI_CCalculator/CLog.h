@@ -7,8 +7,9 @@ class CLog
 public:
     CLog(void);
     virtual ~CLog(void);
-    void Write(string msg);
-    string GetMsg();
-private:
+    virtual void Write(string msg);
+    virtual string GetMsg();
     string lastmsg;
+protected:
+    
 };

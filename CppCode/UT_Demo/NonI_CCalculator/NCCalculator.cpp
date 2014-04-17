@@ -29,10 +29,15 @@ int NCCalculator::GetRandom()
 int NCCalculator::Divide(int x, int y)
 {
     if(0==y){
-        m_log.Write("ZeroDivisor");
-        throw "ZeroDivisor";
+        m_log->Write("ZeroDivisor");
+        throw 1;
     }
     else{
         return (x / y);
     }
+}
+
+void NCCalculator::SetLog(CLog* log)
+{
+    m_log = log;
 }

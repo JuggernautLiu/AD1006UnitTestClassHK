@@ -13,6 +13,6 @@ public:
     ~TestableCLog(void);
     //void Write(string msg);
     //string GetMsg();
-    MOCK_METHOD1(Write, void(string str1));
-    MOCK_METHOD0(GetMsg, string());
+    //MOCK_METHOD1(Write, void(string str1));
+    //MOCK_METHOD0(GetMsg, string());
 };
